@@ -1,0 +1,50 @@
+/* General Body Styling */
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+  text-align: center;
+}
+
+/* Player Colors */
+.X {
+  color: red;
+}
+
+.O {
+  color: blue;
+}
+
+/* Game Grid Styling */
+#game-grid {
+  font: 85px Arial, sans-serif;
+  margin: 3px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+/* Grid Buttons */
+#game-grid > button {
+  text-align: center;
+  font-size: 100%;
+  font-family: inherit;
+  border: 1px solid black;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Game Info Section */
+.game-info {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
